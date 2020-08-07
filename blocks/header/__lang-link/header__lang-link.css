@@ -1,4 +1,6 @@
 .header__lang-link {
+  width: 30px;
+  text-align: right;
   margin-right: 18px;
   margin-bottom: 6px;
   color: #fff;
@@ -10,4 +12,5 @@
 
 .header__lang-link:last-child {
   margin-right: 0;
+  text-decoration: none;
 }

@@ -1,11 +1,11 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./_margined/header_margined_true.css);
 
 .header {
-  /* display: flex; */
   display: grid;
   grid-template-columns: 1fr repeat(2, min-content);
-  width: calc(100% - (48px*2));
+  width: calc(100vw - (48px*2));
   align-items: end;
-  margin: 28px 48px 0;
+
 }
