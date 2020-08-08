@@ -1,4 +1,15 @@
+@import url(./__item/photo-grid__item.css);
+
 .photo-grid {
-  background-color: coral;
   grid-area: photo-grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 284px);
+  grid-auto-rows: 213px;
+  gap: 16px;
+  font-size: 0;
 }
