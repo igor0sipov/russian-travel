@@ -16,5 +16,5 @@
   grid-template-columns: 1fr repeat(2, min-content);
   width: calc(100vw - (48px*2));
   align-items: end;
-  max-width: 100%;;
+  max-width: 100%;
 }

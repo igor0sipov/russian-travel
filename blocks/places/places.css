@@ -1,4 +1,8 @@
 .places {
-  background-color: darkcyan;
   grid-area: places;
+  display: grid;
+  width: 100%;
+  grid-template-columns: max-content;
+  grid-auto-rows: max-content;
+  row-gap: 80px;
 }

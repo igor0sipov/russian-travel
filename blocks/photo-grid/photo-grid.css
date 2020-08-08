@@ -12,4 +12,5 @@
   grid-auto-rows: 213px;
   gap: 16px;
   font-size: 0;
+  justify-content: center;
 }
