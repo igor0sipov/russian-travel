@@ -1,15 +1,10 @@
-/* .intro {
-margin: auto;
-  max-width: 690px;
-  display: grid;
-  grid-template-rows: repeat(3,1fr);
-} */
+@import url(./__list/intro__list.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
 
 .intro {
-  background-color: brown;
   grid-area: intro;
-
   max-width: 690px;
   display: grid;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(3, max-content);
 }

@@ -1,9 +1,10 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 .page {
   background: #2a2c2f;
+  width: 100%;
   display: grid;
   grid-template-columns: 48px 100px 1fr 100px 48px;
   grid-auto-rows: max-content;
