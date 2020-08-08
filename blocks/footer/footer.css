@@ -1,4 +1,11 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
+
 .footer {
-  background-color: darkseagreen;
+  width: 100%;
   grid-area: footer;
+  display: grid;
+  grid-template-columns: repeat(5, max-content) 1fr;
+  grid-template-rows: max-content;
+  column-gap: 18px;
 }

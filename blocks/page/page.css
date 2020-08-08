@@ -7,8 +7,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 48px 100px 1fr 100px 48px;
-  grid-template-rows: 28px max-content 56px;
-  grid-auto-rows: max-content 92px;
+  grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
 
   grid-template-areas:
   ". . . . ."
@@ -24,7 +23,8 @@
   ". . . . ."
   ". cover cover cover ."
   ". . . . ."
-  ". footer footer footer .";
+  ". footer footer footer ."
+  ". . . . .";
   justify-items: stretch;
   align-items: stretch;
 
