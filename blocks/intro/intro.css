@@ -1,0 +1,15 @@
+/* .intro {
+margin: auto;
+  max-width: 690px;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+} */
+
+.intro {
+  background-color: brown;
+  grid-area: intro;
+
+  max-width: 690px;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+}

@@ -2,10 +2,20 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./_margined/header_margined_true.css);
 
-.header {
+/* .header {
   display: grid;
   grid-template-columns: 1fr repeat(2, min-content);
   width: calc(100vw - (48px*2));
   align-items: end;
 
+} */
+
+.header {
+  background-color: blue;
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr repeat(2, min-content);
+  width: calc(100vw - (48px*2));
+  align-items: end;
+  max-width: 100%;;
 }

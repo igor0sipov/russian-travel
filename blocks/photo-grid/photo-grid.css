@@ -1,0 +1,4 @@
+.photo-grid {
+  background-color: coral;
+  grid-area: photo-grid;
+}
