@@ -1,5 +1,5 @@
 .lead__image {
-  width: 100%;
+  max-width: 100%;   /*  TODO */
   padding-bottom: 62.5%;
   background-image: url(../../../pictures/lead-polka.jpg);
   background-size: contain;

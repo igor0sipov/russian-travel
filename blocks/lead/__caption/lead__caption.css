@@ -1,5 +1,5 @@
 .lead__caption {
-  width: 159px;
+  max-width: 159px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;

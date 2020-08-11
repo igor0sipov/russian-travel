@@ -4,29 +4,8 @@
 
 .page {
   background: #2a2c2f;
-  width: 100%;
   display: grid;
-  grid-template-columns: 48px 100px 1fr 100px 48px;
-  grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-  grid-template-areas:
-  ". . . . ."
-  ". header header header ."
-  ". . . . ."
-  ". . lead . ."
-  ". . . . ."
-  ". . intro . ."
-  ". . . . ."
-  ". photo-grid photo-grid photo-grid ."
-  ". . . . ."
-  ". . places . ."
-  ". . . . ."
-  ". cover cover cover ."
-  ". . . . ."
-  ". footer footer footer ."
-  ". . . . .";
-  justify-items: stretch;
-  align-items: stretch;
-
+  width: 100vw;
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,4 +13,130 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+
 }
+
+@media screen and (min-width: 0px){
+  .page {
+    grid-template-columns: 48px 100px 1fr 100px 48px;
+    grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
+    grid-template-areas:
+    ". . . . ."
+    ". header header header ."
+    ". . . . ."
+    ". . lead . ."
+    ". . . . ."
+    ". . intro . ."
+    ". . . . ."
+    ". photo-grid photo-grid photo-grid ."
+    ". . . . ."
+    ". . places . ."
+    ". . . . ."
+    ". cover cover cover ."
+    ". . . . ."
+    ". footer footer footer ."
+    ". . . . .";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+}
+
+  @media screen and (min-width: 1280px) {
+  .page {
+    grid-template-columns: 48px 100px 1fr 100px 48px;
+    grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
+    grid-template-areas:
+    ". . . . ."
+    ". header header header ."
+    ". . . . ."
+    ". . lead . ."
+    ". . . . ."
+    ". . intro . ."
+    ". . . . ."
+    ". photo-grid photo-grid photo-grid ."
+    ". . . . ."
+    ". . places . ."
+    ". . . . ."
+    ". cover cover cover ."
+    ". . . . ."
+    ". footer footer footer ."
+    ". . . . .";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+}
+
+/* @media screen and (max-width: 1280px) {
+  .page {
+    grid-template-columns: 48px 100px 1fr 100px 48px;
+    grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
+    grid-template-areas:
+    ". . . . ."
+    ". header header header ."
+    ". . . . ."
+    ". . lead . ."
+    ". . . . ."
+    ". . intro . ."
+    ". . . . ."
+    ". photo-grid photo-grid photo-grid ."
+    ". . . . ."
+    ". . places . ."
+    ". . . . ."
+    ". cover cover cover ."
+    ". . . . ."
+    ". footer footer footer ."
+    ". . . . .";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    grid-template-columns: 48px 1fr 48px;
+    grid-template-rows: 28px max-content 48px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
+    grid-template-areas:
+    ". . ."
+    ". header ."
+    ". . ."
+    ". lead ."
+    ". . ."
+    ". intro ."
+    ". . ."
+    ". photo-grid ."
+    ". . ."
+    ". places ."
+    ". . ."
+    "cover cover cover"
+    ". . ."
+    ". footer ."
+    ". . .";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .page {
+    grid-template-columns: 24px 1fr 24px;
+    grid-template-rows: 28px max-content 48px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
+    grid-template-areas:
+    ". . ."
+    ". header ."
+    ". . ."
+    ". lead ."
+    ". . ."
+    ". intro ."
+    ". . ."
+    ". photo-grid ."
+    ". . ."
+    ". places ."
+    ". . ."
+    "cover cover cover"
+    ". . ."
+    ". footer ."
+    ". . .";
+    justify-items: stretch;
+    align-items: stretch;
+  }
+} */

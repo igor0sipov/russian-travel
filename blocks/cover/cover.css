@@ -4,6 +4,7 @@
 @import url(./__title/cover__title.css);
 
 .cover {
+  width: 100%;
   grid-area: cover;
   position: relative;
   padding-bottom: 62.5%;

@@ -4,7 +4,7 @@
 
 .intro {
   grid-area: intro;
-  max-width: 690px;
   display: grid;
+  grid-template-columns: minmax(auto, 690px);
   grid-template-rows: repeat(3, max-content);
 }
