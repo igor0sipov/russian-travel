@@ -7,4 +7,18 @@
   display: grid;
   grid-template-columns: minmax(auto, 690px);
   grid-template-rows: repeat(3, max-content);
+  grid-column: 3/-6;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    grid-column: 2/-5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    grid-template-columns: 100%;
+    grid-column: 2/-2;
+  }
 }

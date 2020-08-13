@@ -2,6 +2,7 @@
 
 .photo-grid {
   grid-area: photo-grid;
+  grid-column: 2/-2;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -19,5 +20,13 @@
     grid-template-columns: repeat(auto-fit, minmax(auto, 300px));
     grid-auto-rows: 225px;
     gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(auto, 352px));
+    grid-auto-rows: 264px;
+    gap: 16px;
   }
 }

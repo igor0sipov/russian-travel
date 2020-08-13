@@ -1,4 +1,8 @@
 .place__image {
-  width: 460px;
+  width: 100%;
   grid-row: span 2;
+}
+
+.place:last-child .place__image {
+  grid-row: auto;
 }

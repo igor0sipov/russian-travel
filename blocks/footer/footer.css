@@ -2,10 +2,12 @@
 @import url(./__link/footer__link.css);
 
 .footer {
-  width: 100%;
   grid-area: footer;
+  max-width: 100%;
+  grid-column: 2/-2;
   display: grid;
   grid-template-columns: repeat(5, max-content) 1fr;
   grid-template-rows: max-content;
   column-gap: 18px;
+
 }

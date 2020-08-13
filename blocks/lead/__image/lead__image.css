@@ -1,8 +1,4 @@
 .lead__image {
-  max-width: 100%;   /*  TODO */
-  padding-bottom: 62.5%;
-  background-image: url(../../../pictures/lead-polka.jpg);
-  background-size: contain;
-  background-position: top left;
-  background-repeat: no-repeat;
+  max-width: 100%;
+  object-fit: contain;
 }

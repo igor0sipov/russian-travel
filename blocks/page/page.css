@@ -5,12 +5,9 @@
   box-sizing: border-box;
 } */
 
-
-
 .page {
-  background: #2a2c2f;
-  display: grid;
   width: 100vw;
+  background: #2a2c2f;
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,129 +16,50 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 
-}
-
-@media screen and (min-width: 0px){
-  .page {
-    grid-template-columns: 48px 100px 1fr 100px 48px;
-    grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-    grid-template-areas:
-    ". . . . ."
-    ". header header header ."
-    ". . . . ."
-    ". . lead . ."
-    ". . . . ."
-    ". . intro . ."
-    ". . . . ."
-    ". photo-grid photo-grid photo-grid ."
-    ". . . . ."
-    ". . places . ."
-    ". . . . ."
-    ". cover cover cover ."
-    ". . . . ."
-    ". footer footer footer ."
-    ". . . . .";
-    justify-items: stretch;
-    align-items: stretch;
-  }
-}
-
-  @media screen and (min-width: 1280px) {
-  .page {
-    grid-template-columns: 48px 100px 1fr 100px 48px;
-    grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-    grid-template-areas:
-    ". . . . ."
-    ". header header header ."
-    ". . . . ."
-    ". . lead . ."
-    ". . . . ."
-    ". . intro . ."
-    ". . . . ."
-    ". photo-grid photo-grid photo-grid ."
-    ". . . . ."
-    ". . places . ."
-    ". . . . ."
-    ". cover cover cover ."
-    ". . . . ."
-    ". footer footer footer ."
-    ". . . . .";
-    justify-items: stretch;
-    align-items: stretch;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .page {
-    grid-template-columns: 48px 100px 1fr 100px 48px;
-    grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-    grid-template-areas:
-    ". . . . ."
-    ". header header header ."
-    ". . . . ."
-    ". . lead . ."
-    ". . . . ."
-    ". . intro . ."
-    ". . . . ."
-    ". photo-grid photo-grid photo-grid ."
-    ". . . . ."
-    ". . places . ."
-    ". . . . ."
-    ". cover cover cover ."
-    ". . . . ."
-    ". footer footer footer ."
-    ". . . . .";
-    justify-items: stretch;
-    align-items: stretch;
-  }
+  display: grid;
+  grid-template-columns: calc(48px - 4px) repeat(12, 1fr) calc(48px - 4px);
+  column-gap: 4px;
+  box-sizing: border-box;
+  grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
+  grid-template-areas:
+  "."
+  "header"
+  "."
+  "lead"
+  "."
+  "intro"
+  "."
+  "photo-grid"
+  "."
+  "places"
+  "."
+  "cover"
+  "."
+  "footer"
+  ".";
 }
 
 @media screen and (max-width: 1024px) {
   .page {
-    grid-template-columns: 48px 1fr 48px;
+    column-gap: 8px;
+    grid-template-columns: calc(48px - 8px) repeat(12, 1fr) calc(48px - 8px);
     grid-template-rows: 28px max-content 48px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-    grid-template-areas:
-    ". . ."
-    ". header ."
-    ". . ."
-    ". lead ."
-    ". . ."
-    ". intro ."
-    ". . ."
-    ". photo-grid ."
-    ". . ."
-    ". places ."
-    ". . ."
-    "cover cover cover"
-    ". . ."
-    ". footer ."
-    ". . .";
-    justify-items: stretch;
-    align-items: stretch;
   }
 }
 
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 768px) {
   .page {
-    grid-template-columns: 24px 1fr 24px;
-    grid-template-rows: 28px max-content 48px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-    grid-template-areas:
-    ". . ."
-    ". header ."
-    ". . ."
-    ". lead ."
-    ". . ."
-    ". intro ."
-    ". . ."
-    ". photo-grid ."
-    ". . ."
-    ". places ."
-    ". . ."
-    "cover cover cover"
-    ". . ."
-    ". footer ."
-    ". . .";
-    justify-items: stretch;
-    align-items: stretch;
+    grid-template-columns: calc(24px - 12px) repeat(12, 1fr) calc(24px - 12px);
+    column-gap: 12px;
+    grid-template-rows: 28px max-content 48px max-content 88px max-content 88px max-content 88px max-content 88px max-content 88px max-content 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    grid-template-columns: calc(16px - 12px) repeat(12, 1fr) calc(16px - 12px);
+    column-gap: 12px;
+    grid-template-rows: 16px max-content 48px max-content 64px max-content 64px max-content 64px max-content 64px max-content 64px max-content 24px;
+
   }
 }

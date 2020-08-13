@@ -1,7 +1,15 @@
 .places {
   grid-area: places;
+  grid-column: 3/-3;
   display: grid;
   grid-template-columns: 100%;
   grid-auto-rows: max-content;
   row-gap: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    grid-column: 2/-2;
+    row-gap: 72px;
+  }
 }

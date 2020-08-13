@@ -8,6 +8,14 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.04;
+  line-height: 1.05;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.10;
+    margin: 0 0 16px;
+  }
 }
