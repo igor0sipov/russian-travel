@@ -15,11 +15,17 @@
 }
 
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 692px) {
   .cover__subtitle {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.14;
     max-width: calc(100% - (16px*2));
+  }
+}
+
+@media screen and (max-width: 257px) {
+  .cover__subtitle {
+    font-size: 5.44vw;
   }
 }

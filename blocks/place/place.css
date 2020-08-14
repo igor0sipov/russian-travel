@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 692px) {
   .place {
     grid-template-columns: 100%;
     grid-auto-rows: max-content;

@@ -1,25 +1,22 @@
+@import url(./_active_true/header__lang-link_active_true.css);
+
 .header__lang-link {
-  min-width: 22px;
-  text-align: right;
+  text-decoration: none;
   margin-bottom: 6px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
   text-align: right;
-  text-decoration-line: underline;
   color: #FFFFFF;
-}
-
-.header__lang-link:last-child {
-  text-decoration: none;
+  transition: opacity .4s ease-out;
 }
 
 .header__lang-link:hover {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 692px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 24px;

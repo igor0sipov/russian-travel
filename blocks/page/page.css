@@ -1,11 +1,3 @@
-/* * {
-  outline: 1px solid red;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-} */
-
 .page {
   max-width: 100vw;
   background: #2a2c2f;
@@ -16,50 +8,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-
-  display: grid;
-  grid-template-columns: calc(48px - 4px) repeat(12, 1fr) calc(48px - 4px);
-  column-gap: 4px;
-  grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-  grid-template-areas:
-  "."
-  "header"
-  "."
-  "lead"
-  "."
-  "intro"
-  "."
-  "photo-grid"
-  "."
-  "places"
-  "."
-  "cover"
-  "."
-  "footer"
-  ".";
-}
-
-@media screen and (max-width: 1210px) {
-  .page {
-    column-gap: 8px;
-    grid-template-columns: calc(48px - 8px) repeat(12, 1fr) calc(48px - 8px);
-    grid-template-rows: 28px max-content 48px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
-  }
-}
-
-@media screen and (max-width: 865px) {
-  .page {
-    grid-template-columns: calc(24px - 12px) repeat(12, 1fr) calc(24px - 12px);
-    column-gap: 12px;
-    grid-template-rows: 28px max-content 48px max-content 88px max-content 88px max-content 88px max-content 88px max-content 88px max-content 24px;
-  }
-}
-
-@media screen and (max-width: 721px) {
-  .page {
-    grid-template-columns: calc(16px - 12px) repeat(12, 1fr) calc(16px - 12px);
-    column-gap: 12px;
-    grid-template-rows: 16px max-content 48px max-content 64px max-content 64px max-content 64px max-content 64px max-content 64px max-content 24px;
-
-  }
 }

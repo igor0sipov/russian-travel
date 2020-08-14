@@ -1,0 +1,18 @@
+@import url(./_block_header/spaces_block_header.css);
+@import url(./_block_footer/spaces_block_footer.css);
+
+.spaces {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 865px) {
+  .spaces {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .spaces {
+    margin-bottom: 64px;
+  }
+}

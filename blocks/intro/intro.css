@@ -3,21 +3,41 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-  grid-area: intro;
-  grid-column: 3/-6;
   display: grid;
+  grid-template-columns: 690px;
   grid-template-rows: repeat(3, max-content);
+  max-width: 984px;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1080px) {
   .intro {
-    grid-column: 2/-5;
+    max-width: calc(100% - (48px*2));
   }
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 928px) {
+  .intro {
+    max-width: 833px;
+  }
+}
+
+@media screen and (max-width: 881px) {
+  .intro {
+    max-width: calc(100% - (24px*2));
+  }
+}
+
+
+@media screen and (max-width: 768px) {
   .intro {
     grid-template-columns: 100%;
-    grid-column: 2/-2;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .intro {
+    max-width: calc(100% - (16px*2));
   }
 }

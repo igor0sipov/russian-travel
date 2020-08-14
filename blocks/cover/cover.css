@@ -4,18 +4,16 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-  grid-area: cover;
-  grid-column: 2/-2;
-  display: flex;
+  max-width: 1184px;
+  margin: 0 auto;
   position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 62.5%;
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 1210px) {
   .cover {
-    grid-column: 1/-1;
+    max-width: 100%;
+    margin: 0;
   }
 }
+
