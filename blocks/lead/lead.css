@@ -10,7 +10,6 @@
   grid-template-columns: minmax(0, 100%);
   justify-items: center;
   align-items: center;
-  max-width: 100%;
   grid-column: 3/-3;
 }
 

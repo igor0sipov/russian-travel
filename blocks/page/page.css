@@ -2,11 +2,12 @@
   outline: 1px solid red;
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
 } */
 
 .page {
-  width: 100vw;
+  max-width: 100vw;
   background: #2a2c2f;
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
@@ -19,7 +20,6 @@
   display: grid;
   grid-template-columns: calc(48px - 4px) repeat(12, 1fr) calc(48px - 4px);
   column-gap: 4px;
-  box-sizing: border-box;
   grid-template-rows: 28px max-content 56px max-content 92px max-content 92px max-content 92px max-content 92px max-content 92px max-content 24px;
   grid-template-areas:
   "."

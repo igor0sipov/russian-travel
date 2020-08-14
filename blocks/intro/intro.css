@@ -4,10 +4,9 @@
 
 .intro {
   grid-area: intro;
-  display: grid;
-  grid-template-columns: minmax(auto, 690px);
-  grid-template-rows: repeat(3, max-content);
   grid-column: 3/-6;
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
 }
 
 @media screen and (max-width: 1210px) {

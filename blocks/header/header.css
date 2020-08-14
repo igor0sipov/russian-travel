@@ -8,7 +8,5 @@
   grid-template-columns: 1fr repeat(2, min-content);
   align-items: end;
   grid-column: 2/-2;
-  margin: 0;
-  padding: 0;
   gap: 18px
 }
