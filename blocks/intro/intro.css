@@ -10,13 +10,13 @@
   grid-column: 3/-6;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1210px) {
   .intro {
     grid-column: 2/-5;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 865px) {
   .intro {
     grid-template-columns: 100%;
     grid-column: 2/-2;

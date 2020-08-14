@@ -14,13 +14,13 @@
   grid-column: 3/-3;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1210px) {
   .lead{
     grid-column: 2/-2;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 865px) {
   .lead {
     grid-column: 1/-1;
   }

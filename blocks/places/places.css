@@ -7,9 +7,15 @@
   row-gap: 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 865px) {
   .places {
     grid-column: 2/-2;
     row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .places {
+    grid-column: 1/-1;
   }
 }

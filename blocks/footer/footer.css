@@ -9,5 +9,12 @@
   grid-template-columns: repeat(5, max-content) 1fr;
   grid-template-rows: max-content;
   column-gap: 18px;
+}
 
+@media screen and (max-width: 721px) {
+  .footer {
+    grid-template-columns: max-content;
+    grid-auto-rows: max-content;
+    row-gap: 32px;
+  }
 }

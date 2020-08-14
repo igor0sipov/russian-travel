@@ -39,7 +39,7 @@
   ".";
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1210px) {
   .page {
     column-gap: 8px;
     grid-template-columns: calc(48px - 8px) repeat(12, 1fr) calc(48px - 8px);
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 865px) {
   .page {
     grid-template-columns: calc(24px - 12px) repeat(12, 1fr) calc(24px - 12px);
     column-gap: 12px;
@@ -55,7 +55,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 721px) {
   .page {
     grid-template-columns: calc(16px - 12px) repeat(12, 1fr) calc(16px - 12px);
     column-gap: 12px;

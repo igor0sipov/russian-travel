@@ -12,8 +12,14 @@
   justify-self: start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 865px) {
   .lead__caption {
     margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .lead__caption {
+    margin-left: 16px;
   }
 }

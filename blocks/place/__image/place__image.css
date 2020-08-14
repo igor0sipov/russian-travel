@@ -5,4 +5,5 @@
 
 .place:last-child .place__image {
   grid-row: auto;
+  grid-row: span 1;
 }

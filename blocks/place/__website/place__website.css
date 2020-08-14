@@ -2,3 +2,9 @@
   align-self: self-end;
   margin-bottom: 24px;
 }
+
+@media screen and (max-width: 721px) {
+  .place__website {
+    display: none;
+  }
+}
