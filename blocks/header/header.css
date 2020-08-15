@@ -1,8 +1,3 @@
-@import url(./_spacer/header_spacer_top-bottom.css);
-@import url(./__logo/header__logo.css);
-@import url(./__links/header__links.css);
-@import url(./__lang-link/header__lang-link.css);
-
 .header {
   display: flex;
   justify-content: space-between;
