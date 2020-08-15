@@ -1,5 +1,5 @@
-@import url(./_block_header/spaces_block_header.css);
-@import url(./_block_footer/spaces_block_footer.css);
+@import url(./_block/spaces_block_header.css);
+
 
 .spaces {
   margin-bottom: 92px;
