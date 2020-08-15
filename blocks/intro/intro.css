@@ -1,14 +1,12 @@
 @import url(./__list/intro__list.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
+@import url(./__span/intro__span.css);
 
 .intro {
-  display: grid;
-  grid-template-columns: 690px;
-  grid-template-rows: repeat(3, max-content);
   max-width: 984px;
   margin: 0 auto;
-}
+} /* edited */
 
 @media screen and (max-width: 1080px) {
   .intro {
@@ -31,7 +29,6 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    grid-template-columns: 100%;
     max-width: 720px;
   }
 }

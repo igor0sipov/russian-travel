@@ -1,16 +1,16 @@
-.spaces_block_header {
+.header_spacer_top-bottom {
   padding-top: 28px;
   padding-bottom: 56px;
 }
 
 @media screen and (max-width: 1210px) {
-  .header {
+  .header_spacer_top-bottom {
     padding-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 692px) {
-  .header {
+  .header_spacer_top-bottom {
     padding-top: 16px;
     padding-bottom: 48px;
   }

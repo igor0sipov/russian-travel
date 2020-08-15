@@ -1,18 +1,9 @@
-/* .cover__background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  max-width: 100%;
-  object-fit: fill;
-} */
-
 .cover__background {
+  background-image: url(../../../pictures/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: relative;
+  padding-bottom: 62.5%;
 }

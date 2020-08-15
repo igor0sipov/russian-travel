@@ -2,7 +2,14 @@
   background-image: url(../../../pictures/header-logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 142px;
-  min-height: 42px;
+  width: 100%;
+  max-width: 176px;
+  min-height: 52px; /*edited */
 }
 
+@media screen and (max-width: 356px) {
+  .header__logo {
+    max-width: 142px;
+    min-height: 42px;
+  }
+}

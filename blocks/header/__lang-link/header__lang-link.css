@@ -1,16 +1,17 @@
-@import url(./_active/header__lang-link_active_true.css);
+@import url(./_enabled/header__lang-link_enabled.css);
 
 .header__lang-link {
   text-decoration: none;
-  margin-bottom: 6px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.17;
   text-align: right;
   color: #FFFFFF;
   transition: opacity .4s ease-out;
 }
+
+
 
 .header__lang-link:hover {
   opacity: 0.8;

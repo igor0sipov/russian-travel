@@ -4,19 +4,15 @@
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
+@import url(./_spacer/place_spacer_bottom.css);
 
 .place {
   display: grid;
   width: 100%;
   grid-template-columns: minmax(0px, 460px) 1fr;
-  grid-template-rows: repeat(2, min-content) 1fr;
-  grid-auto-flow: column;
+  grid-template-rows: 1fr; /* edited */
   column-gap: 40px;
-  row-gap: 24px;
-}
-
-.place:last-child {
-  grid-template-rows: min-content 1fr;
+  row-gap: 48px;
 }
 
 @media screen and (max-width: 1210px) {
@@ -38,5 +34,6 @@
     grid-template-columns: 100%;
     grid-auto-rows: max-content;
     grid-auto-flow: row;
+    row-gap: 32px;
   }
 }

@@ -1,0 +1,16 @@
+.place_spacer_bottom {
+  margin-bottom: 80px;
+}
+
+
+@media screen and (max-width: 865px) {
+  .place_spacer_bottom {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .place_spacer_bottom {
+    margin-bottom: 48px;
+  }
+}

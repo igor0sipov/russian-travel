@@ -1,11 +1,16 @@
 .place__paragraph {
   width: 100%;
   margin: 0;
+  margin-bottom: 24px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
   color: #FFFFFF;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 865px) {
@@ -17,6 +22,6 @@
   @media screen and (max-width: 692px) {
     .place__paragraph {
       width: calc(100% - (16px*2));
-      margin: 0 auto;
+      margin: 0 auto 24px;
     }
   }

@@ -1,0 +1,16 @@
+.header__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  gap: 18px;
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 356px) {
+  .header__links {
+    margin-bottom: 4px;
+  }
+}
