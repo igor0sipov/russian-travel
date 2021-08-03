@@ -1,11 +1,11 @@
 .places {
   max-width: 984px;
   margin: 0 auto;
-} /* edited */
+}
 
 @media screen and (max-width: 1210px) {
   .places {
-    max-width: calc(100% - (48px*2));
+    max-width: calc(100% - (48px * 2));
   }
 }
 

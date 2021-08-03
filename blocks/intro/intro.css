@@ -1,11 +1,11 @@
 .intro {
   max-width: 984px;
   margin: 0 auto;
-} /* edited */
+}
 
 @media screen and (max-width: 1080px) {
   .intro {
-    max-width: calc(100% - (48px*2));
+    max-width: calc(100% - (48px * 2));
   }
 }
 
@@ -17,10 +17,9 @@
 
 @media screen and (max-width: 881px) {
   .intro {
-    max-width: calc(100% - (24px*2));
+    max-width: calc(100% - (24px * 2));
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .intro {
@@ -30,6 +29,6 @@
 
 @media screen and (max-width: 752px) {
   .intro {
-    max-width: calc(100% - (16px*2));
+    max-width: calc(100% - (16px * 2));
   }
 }
